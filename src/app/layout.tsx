@@ -130,7 +130,7 @@ export const metadata: Metadata = {
     canonical: "https://pixel-art-8-bit.mishrashardendu22.is-a.dev",
   },
   verification: {
-    google: "google-site-verification-code",
+    google: "chI5V43cE0xK-V-aK_-sWYlvBiD5nVXde5dVhg_dDoY",
   },
   manifest: "/manifest.json",
   icons: {
