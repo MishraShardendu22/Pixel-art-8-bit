@@ -26,6 +26,14 @@
 - Fixed missing previews and code examples for 6 components (Drawer, AlertDialog, Toast, Sonner, Navigation Menu, Command).
 - Fixed accessibility issues in shop page .
 
+## Tanmay Gupta (Github Username -TanmayGupta-play)
+
+- Created a new PixelTimelineNavigation component with support for both horizontal and vertical timeline layouts.
+- Implemented progress tracking with completed, current, and upcoming step states, including interactive navigation between completed steps.
+- Added support for multiple sizes, custom step icons, automatic timeline connectors, and responsive layouts.
+- Integrated the component into the documentation system with detailed API references, usage examples, and live component previews.
+- Focused on accessibility and usability through ARIA support, semantic interactions, and consistent design patterns across the Pixel UI library.
+
 ## Pixel UI — 8-Bit Retro Component Library
 
 A complete pixel-art/8-bit retro UI component library with documentation website, built with Next.js, TypeScript, Tailwind CSS, and Radix UI primitives. Inspired by classic 8-bit games and retro computing aesthetics.
