@@ -43,11 +43,7 @@ export interface ResumeData {
   experience: Experience[];
 }
 
-if (!process.env.OPENROUTER_API_KEY) {
-  throw new Error("OPENROUTER_API_KEY is not set in environment variables");
-}
-
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "";
 const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 // In-memory storage for parsed resumes (in production, use a database)
