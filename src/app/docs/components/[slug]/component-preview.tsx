@@ -1418,7 +1418,7 @@ export function ComponentPreview({ slug }: { slug: string }) {
     case "pixel-rotating-text":
       return (
         <div className="space-y-4">
-          <PixelRotatingText words={["Fast", "Simple", "Pixel"]} />
+          <PixelRotatingText texts={["Fast", "Simple", "Pixel"]} />
         </div>
       );
 

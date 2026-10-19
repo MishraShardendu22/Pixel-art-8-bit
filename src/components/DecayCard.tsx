@@ -18,13 +18,13 @@ const DecayCard: React.FC<DecayCardProps> = ({
   const svgRef = useRef<HTMLDivElement | null>(null);
   const displacementMapRef = useRef<SVGFEDisplacementMapElement | null>(null);
   const cursor = useRef<{ x: number; y: number }>({
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2,
+    x: typeof window !== "undefined" ? window.innerWidth / 2 : 0,
+    y: typeof window !== "undefined" ? window.innerHeight / 2 : 0,
   });
   const cachedCursor = useRef<{ x: number; y: number }>({ ...cursor.current });
   const winsize = useRef<{ width: number; height: number }>({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: typeof window !== "undefined" ? window.innerWidth : 1000,
+    height: typeof window !== "undefined" ? window.innerHeight : 800,
   });
 
   useEffect(() => {
